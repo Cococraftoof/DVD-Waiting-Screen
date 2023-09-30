@@ -57,3 +57,5 @@ while 1:
     screen.fill(black)
     screen.blit(dvd, dvdrect)
     pygame.display.flip()
+
+# dvd_images = [pygame.image.load(f"dvd{i}.bmp") for i in range(11)] Pour importer plusieurs images en même temps
